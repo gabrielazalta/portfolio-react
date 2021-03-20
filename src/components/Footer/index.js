@@ -3,13 +3,6 @@ import React from 'react';
 function Footer() {
     return(
         <footer>
-            <div className="row m-4 pt-5">
-                <div className="col-4"></div>
-                <div className="col-4 text-center mb-3">
-                    <h1 className="sub-title">lets get connected!</h1>
-                </div>
-                <div className="col-4"></div>
-            </div>
             <div className="row m-4 p-5 shadow">
                 <div className="col-1"></div>
                 <div className="text-center col-2">

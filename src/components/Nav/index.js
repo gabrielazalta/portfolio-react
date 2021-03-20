@@ -1,52 +1,63 @@
-import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import React, { useState } from 'react';
+import Home from '../Home';
+import About from '../About';
+import Portfolio from '../Portfolio';
+import Contact from '../Contact';
+import Resume from '../Resume';
 
-function Nav(props) {
-  const {
-    categories = [],
-    setCurrentCategory,
-    contactSelected,
-    currentCategory,
-    setContactSelected,
-  } = props;
+function NavTabs(props) {
+  const tabs = ['Home', 'About', 'Portfolio', 'Contact', 'Resume'];
+  return (
+    <ul className="nav nav-tabs">
+      {tabs.map(tab => (
+        <li className="nav-item" key={tab}>
+          <a
+            href={'#' + tab.toLowerCase()}
+            onClick={() => props.handlePageChange(tab)}
+            className={
+              props.currentPage === tab ? 'nav-link active' : 'nav-link'
+            }
+          >
+            {tab}
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function Nav() {
+  const [currentPage, handlePageChange] = useState('Home');
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'Home':
+        return <Home />;
+
+      case 'About':
+        return <About />;
+
+      case 'Portfolio':
+        return <Portfolio />;
+
+      case 'Contact':
+        return <Contact />;
+
+      case 'Resume':
+        return <Resume />;
+
+      default:
+        return <Home />;
+    }
+  };
 
   return (
-    <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
-        </a>
-      </h2>
-      <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
-          </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
-                }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
+    <div className="collapse navbar-collapse justify-content-end p-2 mx-4" id="navbarNavAltMarkup">
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div className="navbar-nav">
+        <div className="nav-link mx-3">{renderPage()}</div>
+      </div>
+    </div>
   );
 }
 
