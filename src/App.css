@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,119 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ */
+
+ @import url("https://fonts.googleapis.com/css2?family=Satisfy&family=Tajawal:wght@300&display=swap");
+
+.navbar-brand {
+  font-size: 44px;
+  font-family: 'Satisfy', cursive;
+}
+
+.nav-link {
+  font-size: 26px;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.164);
+  border-radius: 10px;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.164);
+  border-radius: 10px;
+}
+
+.intro-text {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 24px;
+  background-color: #fbefcc63;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.img-fluid {
+  background-color: #fbefcc63;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #e0876a;
+  color: white;
+}
+
+.fa:hover {
+  background-color: #f9ccac;
+  text-decoration: none;
+  color: #e0876a;
+}
+
+.sub-title {
+  font-family: 'Satisfy', cursive;
+  background-color: #fbefccad;
+  border-radius: 10px;
+  padding: 5px;
+  letter-spacing: 2.6px;
+}
+
+.project {
+  background-color: #fbefcc9a;
+  border-radius: 10px;
+}
+.project:hover {
+  background-color: #fbefcc;  
+} 
+
+.card-text {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.card-text:hover {
+  text-decoration: none;
+  color: #e0876a;
+}
+.repo {
+  font-size:18px;
+}
+.repo:hover{
+  color: #e0876a;
+}
+.resume {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 28px;
+  background-color: #fbefcc63;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
+.link {
+  text-decoration: none; 
+  color: #667292;
+  font-weight: bold;
+}
+.link:hover {
+  text-decoration: none;
+  color: #e0876a;
+}
+.card-img-top {
+  height: 200px;
+  padding: 10px;
+}
+.card-footer {
+  background-color: #f9ccac7e;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 32px;
 }
