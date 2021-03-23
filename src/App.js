@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React, {useState} from 'react';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -8,19 +7,31 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import './App.css';
 
+
 function App() {
+  const [currentPage, setCurrentPage] = useState('about');
+
+  const renderPage = () => {
+    switch(currentPage) {
+      case 'portfolio':
+        return <Portfolio />;
+      case 'contact':
+        return <Contact />;
+      case 'resume':
+        return <Resume />;
+      default:
+        return <About />
+    }
+  }
+
   return (
-    <Router>
-      <div>
-        <Navbar/>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/projects" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/resume" component={Resume} />
-        <Footer />
-      </div>
-    </Router>
+    <div >
+      <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage}></Navbar>
+      <main>
+        {renderPage(currentPage)}
+      </main>
+       <Footer />
+    </div>
   );
 }
 
