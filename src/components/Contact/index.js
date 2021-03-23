@@ -47,15 +47,15 @@ function Contact() {
         <div className="col-4"></div>
         <div>
           <form id="contact-form" onSubmit={handleSubmit}>
-            <div className="col-8">
+            <div className="col-10">
               <label className="nav-link" htmlFor="name">Name:</label>
               <input className="nav-link" type="text" name="name" defaultValue={name} onBlur={handleChange} />
             </div>
-            <div className="col-8">
+            <div className="col-10">
               <label className="nav-link" htmlFor="email">Email address:</label>
               <input className="nav-link" type="email" name="email" defaultValue={email} onBlur={handleChange} />
             </div>
-            <div className="col-8">
+            <div className="col-10">
               <label className="nav-link" htmlFor="message">Message:</label>
               <textarea className="nav-link" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
             </div>
