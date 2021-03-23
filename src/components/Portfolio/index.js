@@ -20,7 +20,7 @@ function projects() {
 
         <div className="card-deck">
 
-            <div className="card m-4 project shadow-sm" style= {{ width: "100%" }}>
+            <div className="card m-4 project shadow-sm" style= {{ width: "100%", backgroundColor: "#fbefcc9a" }}>
                 <img src={covid} className="card-img-top rounded" alt="COVID"/>
                 <div className="card-body">
                     <p className="card-text"><a className="card-text" href="https://gabrielazalta.github.io/COVID-19-Live-Stats-Support/">COVID-19 Live Stats and Support</a>
@@ -30,7 +30,7 @@ function projects() {
                 </div>
             </div>
 
-            <div className="card m-4 project shadow-sm" style= {{ width: "100%" }}>
+            <div className="card m-4 project shadow-sm" style= {{ width: "100%", backgroundColor: "#fbefcc9a" }}>
                 <img src={schedule} className="card-img-top rounded" alt="scheduler"/>
                 <div className="card-body">
                     <p className="card-text"><a className="card-text" href="https://gabrielazalta.github.io/work-day-scheduler/">Work Day Scheduler</a>
@@ -40,7 +40,7 @@ function projects() {
                 </div>
             </div>
 
-            <div className="card m-4 project shadow-sm" style= {{ width: "100%" }}>
+            <div className="card m-4 project shadow-sm" style= {{ width: "100%", backgroundColor: "#fbefcc9a" }}>
                 <img src={buddy} className="card-img-top rounded" alt="buddy"/>
                 <div className="card-body">
                     <p className="card-text"><a className="card-text" href="https://gabrielazalta.github.io/run-buddy/">Run Buddy</a>
@@ -53,7 +53,7 @@ function projects() {
         </div>
         <div className="card-deck">
           
-            <div className="card m-4 project shadow-sm" style= {{ width: "100%" }}>
+            <div className="card m-4 project shadow-sm" style= {{ width: "100%", backgroundColor: "#fbefcc9a" }}>
                 <img src={beer} className="card-img-top rounded" alt="draftRoom"/>
                 <div className="card-body">
                     <p className="card-text"><a className="card-text" href="https://sleepy-island-61088.herokuapp.com/">DraftRoom Beer Blog</a>
@@ -63,7 +63,7 @@ function projects() {
                 </div>
             </div>
 
-            <div className="card m-4 project shadow-sm" style= {{ width: "100%" }}>
+            <div className="card m-4 project shadow-sm" style= {{ width: "100%", backgroundColor: "#fbefcc9a" }}>
                 <img src={weather} className="card-img-top rounded" alt="weather"/>
                 <div className="card-body">
                     <p className="card-text"><a className="card-text" href="https://gabrielazalta.github.io/weather-dashboard/">Weather Dashboard</a>
@@ -73,7 +73,7 @@ function projects() {
                 </div>
             </div>
 
-            <div className="card m-4 project shadow-sm" style= {{ width: "100%" }}>
+            <div className="card m-4 project shadow-sm" style= {{ width: "100%", backgroundColor: "#fbefcc9a" }}>
                 <img src={git} className="card-img-top rounded" alt="git"/>
                 <div className="card-body">
                     <p className="card-text"><a className="card-text" href="https://gabrielazalta.github.io/git-it-done/">Git It Done</a>

@@ -46,6 +46,11 @@
   font-family: 'Satisfy', cursive;
 }
 
+.header-title {
+  font-size: 45px;
+  font-family: 'Satisfy', cursive;
+}
+
 .nav-link {
   font-size: 26px;
   font-family: 'Tajawal', sans-serif;
