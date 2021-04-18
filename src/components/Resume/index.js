@@ -21,7 +21,7 @@ function Resume() {
                         <div className="card m-4 project shadow-sm" style= {{ width: "100%", backgroundColor: "#fbefcc9a" }}>
                             <img src={resume} className="card-img-top rounded" alt="resume"/>
                             <div className="card-body">
-                                <p className="card-text"><a className="card-text" href={downloadResume}>download resume</a>
+                                <p className="card-text"><a className="card-text" href={downloadResume} to="route" target="_blank" rel="noopener noreferrer">download resume</a>
                                 </p>
                             </div>
                         </div>
