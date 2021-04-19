@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.81a39c48.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.48bc0642.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.48bc0642.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.3c57ba30.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.3c57ba30.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.fc40bd1d.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.fc40bd1d.js.map",
     "static/css/2.3089b7ae.chunk.css": "/portfolio-react/static/css/2.3089b7ae.chunk.css",
@@ -18,10 +18,10 @@
     "static/media/buddy.92cfcce0.JPG": "/portfolio-react/static/media/buddy.92cfcce0.JPG",
     "static/media/covid.e8be9112.JPG": "/portfolio-react/static/media/covid.e8be9112.JPG",
     "static/media/downloadResume.79e13507.pdf": "/portfolio-react/static/media/downloadResume.79e13507.pdf",
+    "static/media/fitter.8a223a79.JPG": "/portfolio-react/static/media/fitter.8a223a79.JPG",
     "static/media/font-awesome.min.css": "/portfolio-react/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/git.0f2065ff.JPG": "/portfolio-react/static/media/git.0f2065ff.JPG",
     "static/media/profile.daefc806.jpg": "/portfolio-react/static/media/profile.daefc806.jpg",
-    "static/media/resume.ffea0465.JPG": "/portfolio-react/static/media/resume.ffea0465.JPG",
+    "static/media/resume.afeb76a0.JPG": "/portfolio-react/static/media/resume.afeb76a0.JPG",
     "static/media/schedule.48b10e5f.JPG": "/portfolio-react/static/media/schedule.48b10e5f.JPG",
     "static/media/weather.59c67938.JPG": "/portfolio-react/static/media/weather.59c67938.JPG"
   },
@@ -30,6 +30,6 @@
     "static/css/2.3089b7ae.chunk.css",
     "static/js/2.c76f9047.chunk.js",
     "static/css/main.81a39c48.chunk.css",
-    "static/js/main.48bc0642.chunk.js"
+    "static/js/main.3c57ba30.chunk.js"
   ]
 }
