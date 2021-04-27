@@ -11,17 +11,21 @@ function About() {
       </div>
       <div className="col-3"></div>
     </div>
-
     <div className="container shadow">
       <div className="row">
-        <div className="col-1"></div>
-        <div className="col-4">
+        {/* <div className="col-1"></div> */}
+      <div>
+        <p className="m-4 p-4 col-11 text-center bold-text">
+            Hello! My name is Gabriela Zalta and I am a dynamic full-stack web developer currently seeking opportunities in front-end development.
+        </p>
+      </div>
+        <div className="col-5">
             <img src={profile} className="img-fluid rounded m-4 p-4" style={{ width: "100%" }} alt="cover" />
         </div>
         <div class="col-6">
           <div class="row">
             <p className="m-4 p-4 col-12 intro-text">
-              Hello! My name is Gabriela Zalta, I'm from Bogota, Colombia and I am a dynamic full-stack web developer currently seeking opportunities in front-end development.  I graduated from the University of Central Florida in 2019 with a degree in Integrated Business and a minor in International Business. After working in the business industry for a while, I realized that I wanted to shift gears a little and pursue my dream of becoming a programmer! As I learn more about web development and design, I have become increasingly excited about reaching my goals and to see what my future holds.
+              I am from Bogota, Colombia, I graduated from the University of Central Florida in 2019 with a degree in Integrated Business and a minor in International Business. After working in the business industry for a while, I realized that I wanted to shift gears a little and pursue my dream of becoming a programmer! As I learn more about web development and design, I have become increasingly excited about reaching my goals and to see what my future holds.
             </p>
           </div>
           <p className="m-4 p-4 col intro-text">
@@ -31,7 +35,7 @@ function About() {
             Tools: MERN, Handlebars, Bootstrap, Bulma, JQuery
           </p>
         </div>
-        <div className="col-1"></div>
+        {/* <div className="col-1"></div> */}
       </div>
     </div> 
     </section>
