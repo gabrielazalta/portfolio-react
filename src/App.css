@@ -96,8 +96,7 @@
 }
 
 .fa {
-  padding: 20px;
-  font-size: 40px;
+  padding: 13px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -109,6 +108,10 @@
   background-color: #f9ccac;
   text-decoration: none;
   color: #e0876a;
+}
+
+.icon {
+  font-size: 24px;
 }
 
 .sub-title {
