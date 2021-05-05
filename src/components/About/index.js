@@ -1,5 +1,7 @@
 import React from 'react'
 import profile from "../../assets/images/profile.jpg";
+import certificate from "../../assets/images/certificate.JPG";
+import badge from "../../assets/images/badge.JPG";
 
 function About() {
   return (
@@ -13,7 +15,6 @@ function About() {
     </div>
     <div className="container shadow">
       <div className="row">
-        {/* <div className="col-1"></div> */}
       <div>
         <p className="m-4 p-4 col-11 text-center bold-text">
             Hello! My name is Gabriela Zalta and I am a dynamic full-stack web developer currently seeking opportunities in front-end development.
@@ -29,14 +30,21 @@ function About() {
             </p>
           </div>
           <p className="m-4 p-4 col intro-text">
-            Languages: HTML, CSS, JavaScript, SQL, NoSQL
-          </p>
-          <p className="m-4 p-4 col intro-text">
-            Tools: MERN, Handlebars, Bootstrap, Bulma, JQuery
+            Skilled in: HTML, CSS, Javascript, third-party APIs, Progressive Web Applications, MySQL, API design, and the MERN stack
           </p>
         </div>
-        {/* <div className="col-1"></div> */}
       </div>
+
+      <div className="row pb-4">
+        <div className="col-1"></div>
+      <div className="col-5">
+            <img src={certificate} className="img-fluid rounded m-2 p-2" style={{ width: "95%" }} alt="certificate" />
+        </div>
+        <div className="col-5" href="https://api.badgr.io/public/assertions/827jriF-SVykUt63GUDc_w?identity__email=gzalta96%40gmail.com">
+            <img src={badge} className="img-fluid rounded m-2 p-2" style={{ width: "75%" }} alt="badge" />
+        </div>
+      </div>
+
     </div> 
     </section>
   )
