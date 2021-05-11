@@ -3,8 +3,8 @@ import beer from "../../assets/images/beer.JPG";
 import buddy from "../../assets/images/buddy.JPG";
 import covid from "../../assets/images/covid.JPG";
 import fitter from "../../assets/images/fitter.JPG";
-import schedule from "../../assets/images/schedule.JPG";
-import weather from "../../assets/images/weather.JPG";
+import shop from "../../assets/images/shop.JPG";
+import tech from "../../assets/images/tech.JPG";
 
 function projects() {
   return (
@@ -31,11 +31,11 @@ function projects() {
             </div>
 
             <div className="card m-4 project shadow-sm" style= {{ width: "100%", backgroundColor: "#fbefcc9a" }}>
-                <img src={schedule} className="card-img-top rounded" alt="scheduler"/>
+                <img src={shop} className="card-img-top rounded" alt="scheduler"/>
                 <div className="card-body">
-                    <p className="card-text"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://gabrielazalta.github.io/work-day-scheduler/">Work Day Scheduler</a>
+                    <p className="card-text"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://shielded-basin-58781.herokuapp.com/">Shop-Shop</a>
                     </p>
-                    <p className="card-text repo"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://github.com/gabrielazalta/work-day-scheduler">View Code</a>
+                    <p className="card-text repo"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://github.com/gabrielazalta/shop-shop">View Code</a>
                     </p>
                 </div>
             </div>
@@ -64,11 +64,11 @@ function projects() {
             </div>
 
             <div className="card m-4 project shadow-sm" style= {{ width: "100%", backgroundColor: "#fbefcc9a" }}>
-                <img src={weather} className="card-img-top rounded" alt="weather"/>
+                <img src={tech} className="card-img-top rounded" alt="tech"/>
                 <div className="card-body">
-                    <p className="card-text"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://gabrielazalta.github.io/weather-dashboard/">Weather Dashboard</a>
+                    <p className="card-text"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://sheltered-beach-17644.herokuapp.com/">Tech Blog</a>
                     </p>
-                    <p className="card-text repo"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://github.com/gabrielazalta/weather-dashboard">View Code</a>
+                    <p className="card-text repo"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://github.com/gabrielazalta/tech-blog">View Code</a>
                     </p>
                 </div>
             </div>
