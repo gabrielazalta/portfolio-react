@@ -1,7 +1,7 @@
 import React from 'react';
 import beer from "../../assets/images/beer.JPG";
 import buddy from "../../assets/images/buddy.JPG";
-import covid from "../../assets/images/covid.JPG";
+import book from "../../assets/images/book.JPG";
 import fitter from "../../assets/images/fitter.JPG";
 import shop from "../../assets/images/shop.JPG";
 import tech from "../../assets/images/tech.JPG";
@@ -20,12 +20,12 @@ function projects() {
 
         <div className="card-deck">
 
-            <div className="card m-4 project shadow-sm" style= {{ width: "100%", backgroundColor: "#fbefcc9a" }}>
-                <img src={covid} className="card-img-top rounded" alt="COVID"/>
+        <div className="card m-4 project shadow-sm" style= {{ width: "100%", backgroundColor: "#fbefcc9a" }}>
+                <img src={fitter} className="card-img-top rounded" alt="fitter"/>
                 <div className="card-body">
-                    <p className="card-text"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://gabrielazalta.github.io/COVID-19-Live-Stats-Support/">COVID-19 Live Stats and Support</a>
+                    <p className="card-text"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://frozen-ravine-95295.herokuapp.com/">Fitter</a>
                     </p>
-                    <p className="card-text repo"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://github.com/gabrielazalta/COVID-19-Live-Stats-Support">View Code</a>
+                    <p className="card-text repo"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://github.com/gabrielazalta/fitter">View Code</a>
                     </p>
                 </div>
             </div>
@@ -74,11 +74,11 @@ function projects() {
             </div>
 
             <div className="card m-4 project shadow-sm" style= {{ width: "100%", backgroundColor: "#fbefcc9a" }}>
-                <img src={fitter} className="card-img-top rounded" alt="fitter"/>
+                <img src={book} className="card-img-top rounded" alt="book"/>
                 <div className="card-body">
-                    <p className="card-text"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://frozen-ravine-95295.herokuapp.com/">Fitter</a>
+                    <p className="card-text"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://thawing-shelf-30967.herokuapp.com/">Book Search Engine</a>
                     </p>
-                    <p className="card-text repo"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://github.com/gabrielazalta/fitter">View Code</a>
+                    <p className="card-text repo"><a to="route" target="_blank" rel="noopener noreferrer" className="card-text" href="https://github.com/gabrielazalta/book-search-engine">View Code</a>
                     </p>
                 </div>
             </div>
