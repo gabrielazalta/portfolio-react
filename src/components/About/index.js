@@ -17,7 +17,7 @@ function About() {
       <div className="row">
       <div>
         <p className="m-4 p-4 col-11 text-center bold-text">
-            Hello! My name is Gabriela Zalta and I am a dynamic full-stack web developer currently seeking opportunities in front-end development.
+            Hello! My name is Gabriela Zalta and I am a dynamic full-stack web developer.
         </p>
       </div>
         <div className="col-5">
